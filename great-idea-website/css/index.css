@@ -65,9 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.top-content div {
+	display: inline-block;
+}
+
+.bottom-content {
+	display: inline-block;
+}
+
 .navigation .links {
 	display: inline-block;
-	margin: 25px;
+	margin: 20px;
+}
+
+.navigation img {
+	margin: 10px;
+	position: relative;
+	top: 18px;
 }
 
 .top-content, .bottom-content {
@@ -80,6 +94,8 @@ h1 {
 
 .links a {
 	padding: 50px;
+	color: black;
+	text-decoration: none;
 }
 
 header {
@@ -89,19 +105,35 @@ header {
 .getstarted {
 	display: inline-block;
 	text-align: center;
-	margin: 25px;
+	margin: 75px;
+	padding: auto;
+}
+
+.getstarted h2 {
+	font-size: 15px;
+	font-family: sans-serif;
+	border: 1px black solid;
+	padding: 15px;
+	width: 60%;
 }
 
 .circlelogo {
 	display: inline-block;
-	padding: 25px;
-}
-
-.top-content .features div {
-	display: inline-block;
+	padding-top: 50px;
+	position: relative;
+	top: 40px;
 }
 
 body {
 	max-width: 90%;
-	margin:0 auto;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.contact {
+	padding-bottom: 25px;
 }
