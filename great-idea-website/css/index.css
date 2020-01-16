@@ -70,7 +70,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-content {
-	padding-top: 25px;
+	margin-top: 25px;
+}
+
+hr {
+	margin: 50px 0px 35px 0px;
 }
 
 .features, .about {
@@ -89,19 +93,17 @@ h1, h2, h3, h4, h5 {
 }
 
 
-.navigation .links {
+.links, .logo {
 	display: inline-block;
-	margin: 20px;
+	padding: 20px 50px 0px 50px;
 }
 
 .navigation, header {
 	text-align: center;
 }
 
-.navigation img {
-	margin: 10px;
-	position: relative;
-	top: 18px;
+.logo img, .links a {
+	vertical-align: middle;
 }
 
 h1 {
@@ -114,11 +116,21 @@ h1 {
 	text-decoration: none;
 }
 
-.getstarted {
+.getstarted, .circlelogo {
 	display: inline-block;
+	vertical-align: middle;
+}
+
+header {
+	margin-top: 50px;
+}
+
+.getstarted {
 	text-align: center;
-	margin: 75px;
-	padding: auto;
+}
+
+.circlelogo {
+	margin-left: 60px;
 }
 
 .getstarted h2 {
@@ -130,13 +142,6 @@ h1 {
 	width: 60%;
 }
 
-.circlelogo {
-	display: inline-block;
-	padding-top: 50px;
-	position: relative;
-	top: 40px;
-}
-
 body {
 	max-width: 90%;
 	margin: auto;
@@ -146,10 +151,6 @@ footer {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 40px;
-}
-
-.contact {
-	padding-bottom: 25px;
 }
 
 .middle-img {
@@ -164,6 +165,7 @@ footer {
 header {
 	animation-duration: 1s;
 	animation-name: slidein;
+	text-align: center;
 }
 
 @keyframes slidein {
