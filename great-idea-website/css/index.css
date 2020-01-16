@@ -95,15 +95,17 @@ hr {
 
 .links, .logo {
 	display: inline-block;
-	padding: 20px 50px 0px 50px;
+	text-align: center;
+	margin-top: 20px;
+	vertical-align: middle;
 }
 
-.navigation, header {
+header {
 	text-align: center;
 }
 
-.logo img, .links a {
-	vertical-align: middle;
+.navigation {
+	text-align: center;
 }
 
 h1 {
@@ -143,7 +145,7 @@ header {
 }
 
 body {
-	max-width: 90%;
+	max-width: 80%;
 	margin: auto;
 }
 
